@@ -8,4 +8,4 @@ The keys can be played by individually clicking on them, or through the keyboard
 <br>
 <img src="https://github.com/arindal1/CSS-Piano-Keys/blob/main/images/keymaps.png" alt="key maps">
 <br>
-## <a href=" ">[Play Piano]</a>
+<a href="https://arindal1.github.io/CSS-Piano-Keys/" target="_blank">[Play Piano]</a>
