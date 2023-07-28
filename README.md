@@ -6,6 +6,6 @@ The keys can be played by individually clicking on them, or through the keyboard
 
 ## Key Mapping:
 <br>
-<img src=" " target="_blank">
+<img src="https://github.com/arindal1/CSS-Piano-Keys/blob/main/images/keymaps.png" alt="key maps">
 <br>
 ## <a href=" ">[Play Piano]</a>
