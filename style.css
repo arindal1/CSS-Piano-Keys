@@ -1,0 +1,120 @@
+body {
+    position: relative; /* Ensure relative positioning for proper z-index behavior */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #aea7e9;
+  overflow: hidden;
+  }
+  .piano-container {
+    display: flex;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 4em 1em 1em 1em;
+    border-radius: 0.62em;
+    background-color: #24272e;
+    box-shadow: 0 2em 4em rgba(7, 0, 53, 0.25);
+    z-index: 99;
+  }
+  .white-key {
+    width: 4.37em;
+    height: 17.5em;
+    background-color: #ffffff;
+    border-radius: 0 0 0.3em 0.3em;
+    border: 2px solid #24272e;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .white-key:hover {
+    background-color: #ebebeb;
+  }
+  .black-key {
+    width: 2.5em;
+    height: 10em;
+    border-radius: 0 0 0.3em 0.3em;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #070a0f;
+    cursor: pointer;
+  }
+  .black-key:hover {
+    background-color: #24272e;
+  }
+  .black-key:nth-child(1) {
+    left: 4em;
+  }
+  .black-key:nth-child(2) {
+    left: 8.37em;
+  }
+  .black-key:nth-child(3) {
+    left: 17.12em;
+  }
+  .black-key:nth-child(4) {
+    left: 21.5em;
+  }
+  .black-key:nth-child(5) {
+    left: 25.87em;
+  }
+  .black-key:nth-child(6) {
+    left: 34.62em;
+  }
+  .black-key:nth-child(7) {
+    left: 39em;
+  }
+  .black-key:nth-child(8) {
+    left: 47.75em;
+  }
+  .black-key:nth-child(9) {
+    left: 52.12em;
+  }
+  .black-key:nth-child(10) {
+    left: 56.5em;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .piano-container {
+      font-size: 0.7em;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .piano-container {
+      font-size: 0.5em;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .piano-container {
+      font-size: 0.3em;
+    }
+  }
+
+.keys {
+    position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+  width: 56%;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px; /* Adjust the gap between social icons */
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    z-index: 4;
+  }
+  
+  .social-icons img {
+    width: 40px; /* Adjust the size of the icons */
+    height: 40px;
+    transition: transform 0.2s ease; /* Add a smooth transition on hover */
+  }
+  
+  .social-icons img:hover {
+    transform: translateY(-5px); /* Move the icons up slightly on hover */
+  }
